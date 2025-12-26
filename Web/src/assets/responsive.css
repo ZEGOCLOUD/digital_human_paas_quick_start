@@ -1,0 +1,156 @@
+/* 响应式断点定义 */
+:root {
+  /* 断点变量 */
+  --mobile-max: 767px;
+  --tablet-min: 768px;
+  --tablet-max: 1023px;
+  --desktop-min: 1024px;
+  --desktop-max: 1439px;
+  --large-desktop-min: 1440px;
+
+  /* 响应式间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* 响应式字体大小 */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 24px;
+}
+
+/* 通用响应式工具类 */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+/* 隐藏/显示工具类 */
+.mobile-only {
+  display: block;
+}
+
+.tablet-only,
+.desktop-only,
+.large-desktop-only {
+  display: none;
+}
+
+/* 移动端优化 */
+@media (max-width: 767px) {
+  :root {
+    --font-size-sm: 13px;
+    --font-size-md: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 18px;
+    --font-size-xxl: 20px;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+
+  .tablet-only,
+  .desktop-only,
+  .large-desktop-only {
+    display: none !important;
+  }
+
+  /* 触摸优化 */
+  button,
+  .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* 平板端 */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 0 var(--spacing-lg);
+  }
+
+  .mobile-only,
+  .desktop-only,
+  .large-desktop-only {
+    display: none !important;
+  }
+
+  .tablet-only {
+    display: block !important;
+  }
+}
+
+/* 桌面端 */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 var(--spacing-xl);
+  }
+
+  .mobile-only,
+  .tablet-only,
+  .large-desktop-only {
+    display: none !important;
+  }
+
+  .desktop-only {
+    display: block !important;
+  }
+}
+
+/* 大屏桌面端 */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1600px;
+    padding: 0 var(--spacing-xl);
+  }
+
+  .mobile-only,
+  .tablet-only,
+  .desktop-only {
+    display: none !important;
+  }
+
+  .large-desktop-only {
+    display: block !important;
+  }
+}
+
+/* 高度媒体查询 - 针对横屏移动设备 */
+@media (max-height: 500px) and (orientation: landscape) {
+  .layout-mobile .main-content {
+    padding: 8px;
+    gap: 8px;
+  }
+}
+
+/* 减少动画（无障碍功能） */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+  .display-section,
+  .control-section {
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+}

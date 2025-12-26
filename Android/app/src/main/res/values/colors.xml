@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题颜色 -->
+    <color name="primary_color">#1791FF</color>
+    <color name="primary_dark">#0B6FCC</color>
+    <color name="accent_color">#1791FF</color>
+    
+    <!-- 背景颜色 -->
+    <color name="background_main">#6680E5</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light_gray">#F2F2F2</color>
+    <color name="background_transparent">#80000000</color>
+    
+    <!-- 按钮颜色 -->
+    <color name="button_create_task">#52C51A</color>
+    <color name="button_stop_task">#FF4D4F</color>
+    <color name="button_interrupt">#FAAD14</color>
+    <color name="button_destroy_all">#999999</color>
+    <color name="button_drive">#1791FF</color>
+    
+    <!-- 文字颜色 -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- 分割线颜色 -->
+    <color name="divider">#E0E0E0</color>
+    
+    <!-- 状态颜色 -->
+    <color name="status_success">#52C51A</color>
+    <color name="status_error">#FF4D4F</color>
+    <color name="status_warning">#FAAD14</color>
+    
+    <!-- Material Design -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Material3 Default Colors -->
+    <color name="purple_2">#FFBB86FC</color>
+    <color name="purple_5">#FF6200EE</color>
+    <color name="purple_7">#FF3700B3</color>
+    <color name="teal_2">#FF03DAC5</color>
+    <color name="teal_7">#FF018786</color>
+</resources>

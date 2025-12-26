@@ -1,0 +1,21 @@
+{
+  "name": "zego_digital_human_quick_start",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "vue": "^3.4.0",
+    "zego-express-engine-webrtc": "3.9.123"
+  },
+  "devDependencies": {
+    "@stagewise-plugins/vue": "^0.4.7",
+    "@stagewise/toolbar-vue": "^0.4.9",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
