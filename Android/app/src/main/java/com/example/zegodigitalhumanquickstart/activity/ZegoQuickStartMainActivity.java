@@ -25,7 +25,7 @@ import com.example.zegodigitalhumanquickstart.model.ZegoQuickStartDriveType;
 import com.example.zegodigitalhumanquickstart.model.ZegoQuickStartTask;
 import com.example.zegodigitalhumanquickstart.model.ZegoQuickStartTaskStatus;
 import com.example.zegodigitalhumanquickstart.network.ZegoQuickStartAPIService;
-import com.example.zegodigitalhumanquickstart.util.ZegoQuickStartConstants;
+import com.example.zegodigitalhumanquickstart.ZegoQuickStartConstants;
 import com.example.zegodigitalhumanquickstart.view.ZegoQuickStartDigitalHumanPlaceholderView;
 import com.example.zegodigitalhumanquickstart.view.ZegoQuickStartDriveControlView;
 import com.example.zegodigitalhumanquickstart.view.ZegoQuickStartTaskControlView;
