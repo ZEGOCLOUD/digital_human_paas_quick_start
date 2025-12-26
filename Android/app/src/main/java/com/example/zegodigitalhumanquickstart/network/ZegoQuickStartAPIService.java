@@ -5,7 +5,7 @@ import android.util.Log;
 
 import com.example.zegodigitalhumanquickstart.model.ZegoQuickStartDigitalHuman;
 import com.example.zegodigitalhumanquickstart.model.ZegoQuickStartTask;
-import com.example.zegodigitalhumanquickstart.util.ZegoQuickStartConstants;
+import com.example.zegodigitalhumanquickstart.ZegoQuickStartConstants;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;

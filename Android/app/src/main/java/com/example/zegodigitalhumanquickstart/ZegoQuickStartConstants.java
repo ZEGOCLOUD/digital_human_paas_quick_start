@@ -1,4 +1,4 @@
-package com.example.zegodigitalhumanquickstart.util;
+package com.example.zegodigitalhumanquickstart;
 
 /**
  * 应用常量定义类
@@ -43,7 +43,7 @@ public class ZegoQuickStartConstants {
     public static final int NETWORK_TIMEOUT = 30; // 秒
     
     // ==================== 服务器配置 ====================
-    // 示例:"http://192.168.88.213:3000/api
+    // 示例:"http://192.168.88.213:3000/api"
     public static final String DEFAULT_SERVER_URL = 你的服务端地址;
     
     // 私有构造函数，防止实例化

@@ -1,6 +1,6 @@
 package com.example.zegodigitalhumanquickstart.model;
 
-import com.example.zegodigitalhumanquickstart.util.ZegoQuickStartConstants;
+import com.example.zegodigitalhumanquickstart.ZegoQuickStartConstants;
 import java.io.Serializable;
 
 /**

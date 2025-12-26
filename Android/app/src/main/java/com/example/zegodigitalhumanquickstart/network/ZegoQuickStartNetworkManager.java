@@ -4,7 +4,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
-import com.example.zegodigitalhumanquickstart.util.ZegoQuickStartConstants;
+import com.example.zegodigitalhumanquickstart.ZegoQuickStartConstants;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 
