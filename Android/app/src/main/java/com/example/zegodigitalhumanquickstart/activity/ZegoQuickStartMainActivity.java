@@ -425,17 +425,7 @@ public class ZegoQuickStartMainActivity extends AppCompatActivity implements
             profile.scenario = ZegoScenario.HIGH_QUALITY_CHATROOM;  // 使用 HIGH_QUALITY_CHATROOM，
             profile.application = getApplication();
             
-            ZegoExpressEngine.createEngine(profile, new IZegoEventHandler() {
-                @Override
-                public void onRoomStreamUpdate(String roomID, ZegoUpdateType updateType, ArrayList<ZegoStream> streamList, org.json.JSONObject extendedData) {
-                    handleRoomStreamUpdate(roomID, updateType, streamList);
-                }
-                
-                @Override
-                public void onPlayerSyncRecvSEI(String streamID, byte[] data) {
-                    handlePlayerSyncRecvSEI(streamID, data);
-                }
-            });
+            ZegoExpressEngine.createEngine(profile, null);
             
             rtcEngineCreated = true;
             Log.d(TAG, "[RTC] Express引擎创建成功，AppId: " + appId);
