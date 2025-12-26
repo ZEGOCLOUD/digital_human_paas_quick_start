@@ -1,4 +1,4 @@
-# ZEGO 数字人 PaaS 客户端快速开始
+# ZEGO 数字人 PaaS 快速开始
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Web-lightgrey.svg)]()
