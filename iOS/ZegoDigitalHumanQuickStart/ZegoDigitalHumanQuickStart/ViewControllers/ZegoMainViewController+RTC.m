@@ -69,6 +69,8 @@
     engineConfig.advancedConfig = @{
         @"set_audio_volume_ducking_mode": @"1",/**该配置是用来做音量闪避的**/
         @"enable_rnd_volume_adaptive": @"true",/**该配置是用来做播放音量自适用**/
+        @"sideinfo_callback_version":@(3),
+        @"sideinfo_bound_to_video_decoder":@"true"
     };
     [ZegoExpressEngine setEngineConfig:engineConfig];
 

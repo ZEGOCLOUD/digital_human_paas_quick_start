@@ -555,6 +555,8 @@ public class ZegoQuickStartMainActivity extends AppCompatActivity implements
         ZegoEngineConfig engineConfig = new ZegoEngineConfig();
         engineConfig.advancedConfig.put("set_audio_volume_ducking_mode", "1");
         engineConfig.advancedConfig.put("enable_rnd_volume_adaptive", "true");
+        engineConfig.advancedConfig.put("sideinfo_callback_version", "3");
+        engineConfig.advancedConfig.put("sideinfo_bound_to_video_decoder", "true");
 
         ZegoExpressEngine.setEngineConfig(engineConfig);
         
