@@ -278,7 +278,7 @@ PORT=3000
 ### 平台特定说明
 
 #### Android
-- 最低支持 Android 8.0 (API 26)
+- 最低支持 Android 6.0 (API 23)
 - 使用 Java 11 语法
 - 注意 Activity 生命周期管理
 
